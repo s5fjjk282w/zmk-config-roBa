@@ -145,7 +145,7 @@
             >;
         };
 
-        layer_7 {
+        SYMBOL {
             bindings = <
 &kp LC(N1)  &kp LC(N4)            &kp LS(SPACE)  &kp SPACE  &kp LC(I)                          &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT  &kp SQT
 &kp LC(N2)  &kp LS(LA(UP_ARROW))  &kp LA(I)      &kp LA(J)  &kp B      &none      &kp HASH     &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND
@@ -154,12 +154,12 @@
             >;
         };
 
-        layer_8 {
+        BIGLETTER {
             bindings = <
-&kp LS(Q)  &kp LS(W)  &kp LS(E)  &kp LS(R)  &kp LS(T)                    &kp LS(Y)  &kp LS(U)  &kp I  &kp O  &kp P
-&kp A      &kp S      &kp D      &kp H      &kp G      &none      &none  &kp F      &kp J      &kp K  &kp L  &none
-&kp Z      &kp X      &kp C      &kp B      &kp B      &none      &none  &kp N      &kp M      &none  &none  &none
-&none      &none      &none      &none      &none      &none      &none  &none                               &none
+&kp LS(Q)  &kp LS(W)  &kp LS(E)  &kp LS(R)  &kp LS(T)                    &kp LS(Y)  &kp LS(U)  &kp LS(I)  &kp LS(O)  &kp LS(P)
+&kp LS(A)  &kp LS(S)  &kp LS(D)  &kp LS(H)  &kp LS(G)  &none      &none  &kp LS(F)  &kp LS(J)  &kp LS(K)  &kp LS(L)  &none
+&kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(B)  &kp LS(V)  &none      &none  &kp LS(N)  &kp LS(M)  &none      &none      &none
+&none      &none      &none      &none      &none      &none      &none  &none                                       &none
             >;
         };
     };
