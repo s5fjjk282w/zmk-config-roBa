@@ -83,7 +83,7 @@
 &kp Q   &kp W   &kp E     &kp R  &kp T                                          &kp Y        &lt 3 U  &kp I      &kp O    &kp P
 &kp A   &kp S   &kp D     &kp H  &kp G     &kp KP_NUMLOCK      &lt 3 F13        &kp F        &kp J    &kp K      &kp L    &kp MINUS
 &kp Z   &kp X   &kp C     &kp B  &kp V     &lt 6 PSCRN         &kp F9           &kp N        &kp M    &kp COMMA  &kp DOT  &kp TILDE
-&kp F7  &kp F8  &kp INT4  &to 7  &lt 8 F2  &to 2               &mt LCTRL SPACE  &lt 1 ENTER                               &kp DEL
+&kp F7  &kp F8  &kp INT4  &mo 7  &lt 8 F2  &mo 2               &mt LCTRL SPACE  &lt 1 ENTER                               &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PG_UP) LC(PAGE_DOWN)>;
