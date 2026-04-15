@@ -91,10 +91,10 @@
 
         keybord {
             bindings = <
-&none   &kp LS(LC(TAB))  &kp LC(S)  &kp ENTER  &kp LC(F4)                                    &kp LG(TAB)  &kp LA(LEFT)  &kp UP    &kp LA(UP)  &kp F4
-&none   &kp LCTRL        &kp TAB    &kp LSHFT  &kp LALT    &none       &kp C_AC_SCROLL_UP    &none        &kp LEFT      &kp DOWN  &kp RIGHT   &none
-&none   &none            &none      &none      &kp LGUI    &none       &kp C_AC_SCROLL_DOWN  &kp ESC      &kp HOME      &kp F5    &kp END     &kp LS(LG(LEFT))
-&trans  &trans           &trans     &trans     &trans      &trans      &trans                &trans                                           &kp LA(F4)
+&none  &kp LS(LC(TAB))  &kp LC(S)  &kp ENTER  &kp LC(F4)                                   &kp LG(TAB)  &kp LA(LEFT)  &kp UP    &kp LA(UP)  &kp F4
+&none  &kp LCTRL        &kp TAB    &kp LSHFT  &kp LALT    &none      &kp C_AC_SCROLL_UP    &none        &kp LEFT      &kp DOWN  &kp RIGHT   &none
+&none  &none            &none      &none      &kp LGUI    &none      &kp C_AC_SCROLL_DOWN  &kp ESC      &kp HOME      &kp F5    &kp END     &kp LS(LG(LEFT))
+&none  &none            &none      &none      &none       &none      &none                 &none                                            &kp LA(F4)
             >;
         };
 
