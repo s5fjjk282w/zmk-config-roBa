@@ -74,10 +74,10 @@
 
         keybord {
             bindings = <
-&kp LC(Y)  &kp LS(LC(TAB))  &kp LC(S)  &kp ENTER              &kp LC(F4)                                                  &kp LG(TAB)     &kp LA(LEFT)  &none     &kp LA(UP)  &kp F4
+&kp LC(E)  &kp LS(LC(TAB))  &kp LC(S)  &kp ENTER              &kp LC(F4)                                                  &kp LG(TAB)     &kp LA(LEFT)  &none     &kp LA(UP)  &kp F4
 &kp LC(A)  &kp LCTRL        &kp TAB    &kp LSHFT              &kp LALT                  &none            &kp F13          &msc SCRL_UP    &mkp MB1      &mkp MB2  &mkp MB3    &kp K_APPLICATION
 &kp LC(Z)  &kp LC(X)        &kp LC(C)  &kp LC(V)              &kp LGUI                  &lt 6 PSCRN      &kp F14          &msc SCRL_DOWN  &kp HOME      &kp F5    &kp END     &kp LS(LG(LEFT))
-&none      &to 0            &to 1      &lt 7 INTERNATIONAL_4  &mt LEFT_SHIFT BACKSPACE  &lt 2 F2         &mt LCTRL SPACE  &lt 3 ENTER                                         &kp LA(F4)
+&none      &to 0            &to 1      &lt 7 INTERNATIONAL_4  &mt LEFT_SHIFT BACKSPACE  &lt 2 F2         &mt LCTRL SPACE  &lt 3 ENTER                                         &kp DELETE
             >;
         };
 
@@ -95,7 +95,7 @@
 &none  &none      &none    &none           &none                           &none  &none     &kp UP    &none      &none
 &none  &kp LCTRL  &kp TAB  &kp LEFT_SHIFT  &kp LEFT_ALT  &none      &none  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none
 &none  &none      &none    &none           &kp LEFT_GUI  &none      &none  &none  &none     &none     &none      &none
-&none  &none      &none    &none           &none         &none      &none  &none                                 &none
+&none  &none      &none    &none           &none         &none      &none  &none                                 &kp LA(F4)
             >;
         };
 
