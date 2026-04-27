@@ -74,10 +74,10 @@
 
         keybord {
             bindings = <
-&kp LC(Y)  &kp LS(LC(TAB))  &kp LC(S)  &kp ENTER              &kp LC(F4)                                                   &kp LG(TAB)     &kp LA(LEFT)  &kp UP    &kp LA(UP)  &kp F4
-&kp LC(A)  &kp LCTRL        &kp TAB    &kp LSHFT              &kp LALT           &none                    &kp F13          &msc SCRL_UP    &kp LEFT      &kp DOWN  &kp RIGHT   &kp K_APPLICATION
-&kp LC(Z)  &kp LC(X)        &kp LC(C)  &kp LC(V)              &kp LGUI           &lt 6 PSCRN              &kp F14          &msc SCRL_DOWN  &kp HOME      &kp F5    &kp END     &kp LS(LG(LEFT))
-&none      &to 1            &to 0      &lt 7 INTERNATIONAL_4  &mt LEFT_SHIFT F2  &lt 2 LC(BACKSPACE)      &mt LCTRL SPACE  &kp ENTER                                           &kp LA(F4)
+&kp LC(Y)       &kp LS(LC(TAB))  &kp LC(S)  &kp ENTER              &kp LC(F4)                                                   &kp LG(TAB)     &kp LA(LEFT)  &kp UP    &kp LA(UP)  &kp F4
+&kp LC(A)       &kp LCTRL        &kp TAB    &kp LSHFT              &kp LALT           &none                    &kp F13          &msc SCRL_UP    &kp LEFT      &kp DOWN  &kp RIGHT   &kp K_APPLICATION
+&kp LC(Z)       &kp LC(X)        &kp LC(C)  &kp LC(V)              &kp LGUI           &lt 6 PSCRN              &kp F14          &msc SCRL_DOWN  &kp HOME      &kp F5    &kp END     &kp LS(LG(LEFT))
+&kp LS(LSHIFT)  &to 1            &to 0      &lt 7 INTERNATIONAL_4  &mt LEFT_SHIFT F2  &lt 2 LC(BACKSPACE)      &mt LCTRL SPACE  &kp ENTER                                           &kp LA(F4)
             >;
         };
 
