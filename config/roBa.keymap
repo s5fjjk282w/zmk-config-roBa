@@ -41,8 +41,8 @@
 
         DELET {
             bindings = <&kp BACKSPACE>;
-            key-positions = <6 7>;
-            layers = <0 2>;
+            key-positions = <7 8>;
+            layers = <0 1>;
         };
     };
 
