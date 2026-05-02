@@ -39,9 +39,9 @@
             key-positions = <3 4>;
         };
 
-        DELET {
+        esc {
             bindings = <&kp BACKSPACE>;
-            key-positions = <7 8>;
+            key-positions = <34 35>;
             layers = <0 1>;
         };
     };
@@ -98,10 +98,10 @@
 
         ARROW {
             bindings = <
-&kp LS(LG(LEFT_ARROW))  &none      &none    &none           &kp LS(LG(RIGHT))                            &none  &none     &kp UP    &none      &kp K_CONTEXT_MENU
-&none                   &kp LCTRL  &kp TAB  &kp LEFT_SHIFT  &kp LEFT_ALT       &none      &to 1          &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none
-&none                   &none      &none    &none           &kp LEFT_GUI       &none      &kp LC(SPACE)  &to 0  &none     &none     &none      &none
-&none                   &none      &none    &none           &none              &none      &none          &none                                 &kp LA(F4)
+&kp LS(LG(LEFT_ARROW))  &none      &none    &none           &kp LS(LG(RIGHT))                            &none  &none     &kp UP    &kp BACKSPACE  &kp K_CONTEXT_MENU
+&none                   &kp LCTRL  &kp TAB  &kp LEFT_SHIFT  &kp LEFT_ALT       &none      &to 1          &none  &kp LEFT  &kp DOWN  &kp RIGHT      &none
+&none                   &none      &none    &none           &kp LEFT_GUI       &none      &kp LC(SPACE)  &to 0  &none     &none     &none          &none
+&none                   &none      &none    &none           &none              &none      &none          &none                                     &kp LA(F4)
             >;
         };
 
