@@ -40,7 +40,7 @@
         };
 
         esc {
-            bindings = <&kp BACKSPACE>;
+            bindings = <&kp ESC>;
             key-positions = <34 35>;
             layers = <0 1>;
         };
