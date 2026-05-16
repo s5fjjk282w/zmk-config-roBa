@@ -71,37 +71,37 @@
 
         default_layer {
             bindings = <
-&kp Q    &kp W        &kp E       &kp R                  &kp T                                                   &kp Y           &kp U         &kp I      &kp O        &kp P
-&kp A    &mt LCTRL S  &kp D       &mt LEFT_SHIFT H       &mt LEFT_ALT G     &kp KP_NUMLOCK      &kp F13          &mt LEFT_ALT F  &mt LSHIFT J  &kp K      &mt LCTRL L  &kp MINUS
-&kp Z    &kp X        &kp C       &kp B                  &kp V              &lt 6 PSCRN         &kp F14          &kp N           &kp M         &kp COMMA  &kp DOT      &kp TILDE
-&kp F13  &kp F14      &kp DELETE  &lt 7 INTERNATIONAL_4  &mt LEFT_SHIFT F2  &lt 2 SPACE         &mt LCTRL SPACE  &lt 3 ENTER                                           &kp DEL
+&kp Q  &kp W        &kp E       &kp R                  &kp T                                                   &kp Y           &kp U         &kp I      &kp O        &kp P
+&kp A  &mt LCTRL S  &kp D       &mt LEFT_SHIFT H       &mt LEFT_ALT G     &kp KP_NUMLOCK      &none            &mt LEFT_ALT F  &mt LSHIFT J  &kp K      &mt LCTRL L  &kp MINUS
+&kp Z  &kp X        &kp C       &kp B                  &mt LEFT_GUI V     &lt 6 PSCRN         &none            &kp N           &kp M         &kp COMMA  &kp DOT      &kp TILDE
+&none  &none        &kp DELETE  &lt 7 INTERNATIONAL_4  &mt LEFT_SHIFT F2  &lt 2 SPACE         &mt LCTRL SPACE  &lt 3 ENTER                                           &kp DEL
             >;
         };
 
         keybord {
             bindings = <
 &kp LC(E)  &kp LS(LC(TAB))  &kp LC(S)   &kp ENTER              &kp LC(F4)                                           &kp LG(TAB)     &kp LA(LEFT)  &none     &kp LA(UP)  &kp F4
-&kp LC(A)  &kp LCTRL        &kp TAB     &kp LSHFT              &kp LALT           &none            &kp F13          &msc SCRL_UP    &mkp MB1      &mkp MB2  &mkp MB3    &none
-&kp LC(Z)  &kp LC(X)        &kp LC(C)   &kp LC(V)              &kp LGUI           &lt 6 PSCRN      &kp F14          &msc SCRL_DOWN  &kp HOME      &kp F5    &kp END     &none
-&kp F13    &kp F14          &kp DELETE  &lt 7 INTERNATIONAL_4  &mt LEFT_SHIFT F2  &lt 2 SPACE      &mt LCTRL SPACE  &lt 3 ENTER                                         &kp DELETE
+&kp LC(A)  &kp LCTRL        &kp TAB     &kp LSHFT              &kp LALT           &none            &none            &msc SCRL_UP    &mkp MB1      &mkp MB2  &mkp MB3    &none
+&kp LC(Z)  &kp LC(X)        &kp LC(C)   &kp LC(V)              &kp LGUI           &lt 6 PSCRN      &none            &msc SCRL_DOWN  &kp HOME      &kp F5    &kp END     &none
+&none      &none            &kp DELETE  &lt 7 INTERNATIONAL_4  &mt LEFT_SHIFT F2  &lt 2 SPACE      &mt LCTRL SPACE  &lt 3 ENTER                                         &kp DELETE
             >;
         };
 
         NUM {
             bindings = <
-&none  &none      &none    &none      &none                              &kp ASTERISK  &kp N7  &kp N8  &kp N9  &kp SLASH
-&none  &kp LCTRL  &kp TAB  &kp LSHFT  &kp LALT  &none      &kp F13       &kp PLUS      &kp N4  &kp N5  &kp N6  &kp MINUS
-&none  &none      &none    &none      &kp LGUI  &none      &kp F14       &kp EQUAL     &kp N1  &kp N2  &kp N3  &kp COLON
-&none  &none      &none    &none      &none     &none      &kp NUMBER_0  &kp PERIOD                            &kp SEMICOLON
+&to 1  &to 0      &kp F13  &kp F14    &none                                      &kp ASTERISK  &kp N7  &kp N8  &kp N9  &kp SLASH
+&none  &kp LCTRL  &kp TAB  &kp LSHFT  &kp LALT  &none              &none         &kp PLUS      &kp N4  &kp N5  &kp N6  &kp MINUS
+&none  &none      &none    &none      &kp LGUI  &kp LC(SPACE)      &none         &kp EQUAL     &kp N1  &kp N2  &kp N3  &kp COLON
+&none  &none      &none    &none      &none     &none              &kp NUMBER_0  &kp PERIOD                            &kp SEMICOLON
             >;
         };
 
         ARROW {
             bindings = <
-&kp LS(LG(LEFT_ARROW))  &none      &none    &none           &kp LS(LG(RIGHT))                            &none  &none     &kp UP    &kp BACKSPACE  &kp K_CONTEXT_MENU
-&none                   &kp LCTRL  &kp TAB  &kp LEFT_SHIFT  &kp LEFT_ALT       &none      &to 1          &none  &kp LEFT  &kp DOWN  &kp RIGHT      &none
-&none                   &none      &none    &none           &kp LEFT_GUI       &none      &kp LC(SPACE)  &to 0  &none     &none     &none          &none
-&none                   &none      &none    &none           &none              &none      &none          &none                                     &kp LA(F4)
+&kp LS(LG(LEFT_ARROW))  &none      &none    &none           &kp LS(LG(RIGHT))                    &none  &none     &kp UP    &kp BACKSPACE  &kp K_CONTEXT_MENU
+&none                   &kp LCTRL  &kp TAB  &kp LEFT_SHIFT  &kp LEFT_ALT       &none      &none  &none  &kp LEFT  &kp DOWN  &kp RIGHT      &none
+&none                   &none      &none    &none           &kp LEFT_GUI       &none      &none  &none  &none     &none     &none          &none
+&none                   &none      &none    &none           &none              &none      &none  &none                                     &kp LA(F4)
             >;
         };
 
@@ -137,7 +137,7 @@
 &kp LC(NUMBER_1)  &kp LC(NUMBER_4)      &kp LS(SPACE)  &kp SPACE  &kp LC(I)                             &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT  &kp SQT
 &kp LC(NUMBER_2)  &kp LS(LA(UP_ARROW))  &kp LA(I)      &kp LA(J)  &kp B      &none      &kp AT_SIGN     &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND
 &kp LC(NUMBER_3)  &kp LS(LA(DOWN))      &kp LA(U)      &none      &none      &none      &kp UNDERSCORE  &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp LS(SQT)  &kp INTERNATIONAL_3
-&to 1             &to 0                 &none          &none      &none      &none      &none           &none                                                                      &none
+&kp LC(N5)        &none                 &none          &none      &none      &none      &none           &none                                                                      &none
             >;
         };
 
