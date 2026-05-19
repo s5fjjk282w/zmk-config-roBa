@@ -60,6 +60,13 @@
             bindings = <&to 0 &kp F13>;
             label = "NEW_MACRO";
         };
+
+        to_1layers: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 1 &kp F13>;
+            label = "NEW_MACRO";
+        };
     };
 
     behaviors {
