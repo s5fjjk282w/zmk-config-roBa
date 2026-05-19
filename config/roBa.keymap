@@ -39,9 +39,9 @@
             key-positions = <3 4>;
         };
 
-        esc {
-            bindings = <&kp ESC>;
-            key-positions = <34 35>;
+        to_layers {
+            bindings = <&to_1layers>;
+            key-positions = <16 28>;
             layers = <0 1>;
         };
     };
@@ -85,28 +85,28 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W        &kp E       &kp R                  &kp T                                                &kp Y           &kp U         &kp I      &kp O        &kp P
-&kp A  &mt LCTRL S  &kp D       &mt LEFT_SHIFT H       &mt LEFT_ALT G  &kp KP_NUMLOCK      &none            &mt LEFT_ALT F  &mt LSHIFT J  &kp K      &mt LCTRL L  &kp MINUS
-&kp Z  &kp X        &kp C       &kp B                  &mt LEFT_GUI V  &lt 6 PSCRN         &none            &kp N           &kp M         &kp COMMA  &kp DOT      &kp TILDE
-&none  &none        &kp DELETE  &lt 7 INTERNATIONAL_4  &lt 3 F2        &lt 2 SPACE         &mt LCTRL SPACE  &lt 3 ENTER                                           &kp DEL
+&kp Q    &kp W        &kp E       &kp R                  &kp T                                                &kp Y           &kp U         &kp I      &kp O        &kp P
+&kp A    &mt LCTRL S  &kp D       &mt LEFT_SHIFT H       &mt LEFT_ALT G  &kp KP_NUMLOCK      &full            &mt LEFT_ALT F  &mt LSHIFT J  &kp K      &mt LCTRL L  &kp MINUS
+&kp Z    &kp X        &kp C       &kp B                  &mt LEFT_GUI V  &lt 6 PSCRN         &half            &kp N           &kp M         &kp COMMA  &kp DOT      &kp TILDE
+&kp ESC  &none        &kp DELETE  &lt 7 INTERNATIONAL_4  &lt 3 F2        &lt 2 SPACE         &mt LCTRL SPACE  &lt 3 ENTER                                           &kp DEL
             >;
         };
 
         keybord {
             bindings = <
 &kp LC(E)  &kp LS(LC(TAB))  &kp LC(S)   &kp ENTER              &kp LC(F4)                                    &kp LG(TAB)     &kp LA(LEFT)  &none     &kp LA(UP)  &kp F4
-&kp LC(A)  &kp LCTRL        &kp TAB     &kp LSHFT              &kp LALT    &none            &none            &msc SCRL_UP    &mkp MB1      &mkp MB2  &mkp MB3    &none
-&kp LC(Z)  &kp LC(X)        &kp LC(C)   &kp LC(V)              &kp LGUI    &lt 6 PSCRN      &none            &msc SCRL_DOWN  &kp HOME      &kp F5    &kp END     &none
-&none      &none            &kp DELETE  &lt 7 INTERNATIONAL_4  &lt 3 F2    &lt 2 SPACE      &mt LCTRL SPACE  &lt 3 ENTER                                         &kp DELETE
+&kp LC(A)  &kp LCTRL        &kp TAB     &kp LSHFT              &kp LALT    &none            &full            &msc SCRL_UP    &mkp MB1      &mkp MB2  &mkp MB3    &none
+&kp LC(Z)  &kp LC(X)        &kp LC(C)   &kp LC(V)              &kp LGUI    &lt 6 PSCRN      &half            &msc SCRL_DOWN  &kp HOME      &kp F5    &kp END     &none
+&kp ESC    &none            &kp DELETE  &lt 7 INTERNATIONAL_4  &lt 3 F2    &lt 2 SPACE      &mt LCTRL SPACE  &lt 3 ENTER                                         &kp DELETE
             >;
         };
 
         NUM {
             bindings = <
-&none  &to_1layers  &full    &half      &none                                      &kp ASTERISK  &kp N7  &kp N8  &kp N9  &kp SLASH
-&none  &kp LCTRL    &kp TAB  &kp LSHFT  &kp LALT  &none              &none         &kp PLUS      &kp N4  &kp N5  &kp N6  &kp MINUS
-&none  &none        &none    &none      &kp LGUI  &kp LC(SPACE)      &none         &kp EQUAL     &kp N1  &kp N2  &kp N3  &kp COLON
-&none  &none        &none    &none      &none     &none              &kp NUMBER_0  &kp PERIOD                            &kp SEMICOLON
+&none  &none      &none    &none      &none                                      &kp ASTERISK  &kp N7  &kp N8  &kp N9  &kp SLASH
+&none  &kp LCTRL  &kp TAB  &kp LSHFT  &kp LALT  &none              &none         &kp PLUS      &kp N4  &kp N5  &kp N6  &kp MINUS
+&none  &none      &none    &none      &kp LGUI  &kp LC(SPACE)      &none         &kp EQUAL     &kp N1  &kp N2  &kp N3  &kp COLON
+&none  &none      &none    &none      &none     &none              &kp NUMBER_0  &kp PERIOD                            &kp SEMICOLON
             >;
         };
 
