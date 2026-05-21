@@ -89,8 +89,8 @@
         keybord {
             bindings = <
 &kp LC(E)  &kp LS(LC(TAB))  &kp LC(S)   &kp ENTER              &kp LC(F4)                                    &kp LG(TAB)     &kp LA(LEFT)    &mmv MOVE_UP    &kp LA(UP)       &kp F4
-&kp LC(A)  &kp LCTRL        &kp TAB     &kp LSHFT              &kp LALT    &none            &none            &msc SCRL_UP    &mmv MOVE_LEFT  &mkp MB1        &mmv MOVE_RIGHT  &none
-&kp LC(Z)  &kp LC(X)        &kp LC(C)   &kp LC(V)              &kp LGUI    &lt 6 PSCRN      &none            &msc SCRL_DOWN  &mkp MB2        &mmv MOVE_DOWN  &mkp MB3         &none
+&kp LC(A)  &kp LCTRL        &kp TAB     &kp LSHFT              &kp LALT    &none            &none            &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none
+&kp LC(Z)  &kp LC(X)        &kp LC(C)   &kp LC(V)              &kp LGUI    &lt 6 PSCRN      &none            &msc SCRL_DOWN  &mkp MB1        &mkp MB2        &mkp MB3         &none
 &none      &none            &kp DELETE  &lt 7 INTERNATIONAL_4  &lt 3 F2    &lt 2 ESC        &mt LCTRL SPACE  &lt 3 ENTER                                                      &kp DELETE
             >;
         };
