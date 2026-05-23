@@ -79,19 +79,19 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W        &kp E       &kp R                  &kp T                                                &kp Y           &kp U         &kp I      &kp O        &kp P
-&kp A  &mt LCTRL S  &kp D       &mt LEFT_SHIFT H       &mt LEFT_ALT G  &kp KP_NUMLOCK      &none            &mt LEFT_ALT F  &mt LSHIFT J  &kp K      &mt LCTRL L  &kp MINUS
-&kp Z  &kp X        &kp C       &kp B                  &mt LEFT_GUI V  &lt 6 PSCRN         &none            &kp N           &kp M         &kp COMMA  &kp DOT      &kp TILDE
-&none  &none        &kp DELETE  &lt 7 INTERNATIONAL_4  &lt 3 F2        &lt 2 ESC           &mt LCTRL SPACE  &lt 3 ENTER                                           &kp DEL
+&kp Q  &kp W        &kp E       &kp R                  &kp T                                              &kp Y           &kp U         &kp I      &kp O        &kp P
+&kp A  &mt LCTRL S  &kp D       &mt LEFT_SHIFT H       &mt LEFT_ALT G  &kp KP_NUMLOCK      &none          &mt LEFT_ALT F  &mt LSHIFT J  &kp K      &mt LCTRL L  &kp MINUS
+&kp Z  &kp X        &kp C       &kp V                  &mt LEFT_GUI B  &lt 6 PSCRN         &none          &kp N           &kp M         &kp COMMA  &kp DOT      &kp TILDE
+&none  &none        &kp DELETE  &lt 7 INTERNATIONAL_4  &lt 3 F2        &lt 2 ESC           &kp BACKSPACE  &lt 3 ENTER                                           &kp DEL
             >;
         };
 
         keybord {
             bindings = <
-&kp LC(E)  &kp LS(LC(TAB))  &kp LC(S)   &kp ENTER              &kp LC(F4)                                    &kp LG(TAB)     &kp LA(LEFT)    &mmv MOVE_UP    &kp LA(UP)       &kp F4
-&kp LC(A)  &kp LCTRL        &kp TAB     &kp LSHFT              &kp LALT    &none            &none            &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none
-&kp LC(Z)  &kp LC(X)        &kp LC(C)   &kp LC(V)              &kp LGUI    &lt 6 PSCRN      &none            &msc SCRL_DOWN  &mkp MB1        &mkp MB2        &mkp MB3         &none
-&none      &none            &kp DELETE  &lt 7 INTERNATIONAL_4  &lt 3 F2    &lt 2 ESC        &mt LCTRL SPACE  &lt 3 ENTER                                                      &kp DELETE
+&none  &none      &none       &none                  &none                                       &kp LG(TAB)     &kp LA(LEFT)  &none  &kp LA(UP)  &kp F4
+&none  &kp LCTRL  &kp TAB     &kp LSHFT              &kp LALT  &none            &none            &msc SCRL_UP    &none         &none  &none       &none
+&none  &none      &none       &none                  &kp LGUI  &lt 6 PSCRN      &none            &msc SCRL_DOWN  &none         &none  &none       &none
+&none  &none      &kp DELETE  &lt 7 INTERNATIONAL_4  &lt 3 F2  &lt 2 ESC        &mt LCTRL SPACE  &lt 3 ENTER                                      &kp DELETE
             >;
         };
 
@@ -106,10 +106,10 @@
 
         ARROW {
             bindings = <
-&kp LS(LG(LEFT_ARROW))  &none      &none    &none           &kp LS(LG(RIGHT))                    &none  &none     &kp UP    &kp BACKSPACE  &kp K_CONTEXT_MENU
-&none                   &kp LCTRL  &kp TAB  &kp LEFT_SHIFT  &kp LEFT_ALT       &none      &none  &none  &kp LEFT  &kp DOWN  &kp RIGHT      &none
-&none                   &none      &none    &none           &kp LEFT_GUI       &none      &none  &none  &kp HOME  &kp F5    &kp END        &none
-&none                   &none      &none    &none           &none              &none      &none  &none                                     &kp LA(F4)
+&kp LS(LG(LEFT_ARROW))  &kp LC(S)  &kp ENTER       &kp LC(F4)       &kp LS(LG(RIGHT))                        &kp LG(TAB)     &kp LA(LEFT)  &kp UP    &kp LA(UP)  &kp K_CONTEXT_MENU
+&none                   &kp LCTRL  &kp TAB         &kp LEFT_SHIFT   &kp LEFT_ALT       &none      &kp F4     &msc SCRL_UP    &kp LEFT      &kp DOWN  &kp RIGHT   &none
+&none                   &none      &msc SCRL_LEFT  &msc SCRL_RIGHT  &kp LEFT_GUI       &none      &kp SPACE  &msc SCRL_DOWN  &kp HOME      &kp F5    &kp END     &none
+&none                   &none      &none           &none            &none              &none      &none      &none                                               &kp LA(F4)
             >;
         };
 
@@ -144,7 +144,7 @@
             bindings = <
 &kp LC(NUMBER_1)  &kp LS(LA(UP))    &kp LS(SPACE)  &kp SPACE  &kp LC(I)                             &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT  &kp SQT
 &kp LC(NUMBER_2)  &kp LS(LA(DOWN))  &kp LA(I)      &kp LA(J)  &kp B      &none      &kp AT_SIGN     &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND
-&kp LC(NUMBER_3)  &to_1lay          &full          &half      &none      &none      &kp UNDERSCORE  &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp LS(SQT)  &kp INTERNATIONAL_3
+&kp LC(NUMBER_3)  &none             &full          &half      &none      &none      &kp UNDERSCORE  &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp LS(SQT)  &kp INTERNATIONAL_3
 &kp LC(NUMBER_4)  &none             &none          &none      &none      &none      &none           &none                                                                      &none
             >;
         };
