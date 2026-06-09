@@ -106,10 +106,10 @@
 
         ARROW {
             bindings = <
-&kp LS(LG(LEFT_ARROW))  &kp LC(S)  &kp ENTER       &kp LC(F4)       &kp LS(LG(RIGHT))                     &kp LG(TAB)     &kp LA(LEFT)  &kp UP    &kp LA(UP)  &kp K_CONTEXT_MENU
-&none                   &kp LCTRL  &kp TAB         &kp LEFT_SHIFT   &kp LEFT_ALT       &none      &kp F4  &msc SCRL_UP    &kp LEFT      &kp DOWN  &kp RIGHT   &none
-&none                   &none      &msc SCRL_LEFT  &msc SCRL_RIGHT  &kp LEFT_GUI       &none      &none   &msc SCRL_DOWN  &kp HOME      &kp F5    &kp END     &none
-&none                   &none      &none           &none            &none              &none      &none   &none                                               &kp LA(F4)
+&kp LS(LG(LEFT_ARROW))  &kp LC(S)  &kp ENTER       &kp LC(F4)       &kp LS(LG(RIGHT))                    &kp LG(TAB)     &kp LA(LEFT)  &kp UP    &kp LA(UP)  &kp K_CONTEXT_MENU
+&none                   &kp LCTRL  &kp TAB         &kp LEFT_SHIFT   &kp LEFT_ALT       &none      &none  &msc SCRL_UP    &kp LEFT      &kp DOWN  &kp RIGHT   &none
+&none                   &none      &msc SCRL_LEFT  &msc SCRL_RIGHT  &kp LEFT_GUI       &none      &none  &msc SCRL_DOWN  &kp HOME      &kp F5    &kp END     &none
+&none                   &none      &none           &none            &none              &none      &none  &none                                               &kp LA(F4)
             >;
         };
 
@@ -144,7 +144,7 @@
             bindings = <
 &kp LC(NUMBER_1)  &kp LS(LA(UP))    &kp LS(SPACE)  &kp SPACE  &kp LC(I)                             &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT  &kp SQT
 &kp LC(NUMBER_2)  &kp LS(LA(DOWN))  &kp LA(I)      &kp LA(J)  &kp B      &none      &kp AT_SIGN     &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND
-&kp LC(NUMBER_3)  &none             &full          &half      &none      &none      &kp UNDERSCORE  &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp LS(SQT)  &kp INTERNATIONAL_3
+&kp LC(NUMBER_3)  &none             &half          &full      &kp F4     &none      &kp UNDERSCORE  &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp LS(SQT)  &kp INTERNATIONAL_3
 &kp LC(NUMBER_4)  &none             &none          &none      &none      &none      &none           &none                                                                      &none
             >;
         };
